@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+      <record id="action_open_email_domain" model="ir.actions.act_url">
+            <field name="name">Open Email Domain</field>
+            <field name="url">https://savoy.hostns.io:2096/cpsess9865958976/3rdparty/roundcube/</field>
+            <field name="target">new</field>
+        </record>
+        <menuitem id="menu_open_facebook"
+                  name="Email Page"
+                  action="action_open_email_domain"
+                  sequence="10"
+                  web_icon="fleet_emaile,static/description/icon.png"/>
+
+  </data>
+</odoo>
